@@ -1,1 +1,37 @@
+Requirement 2: (Browse menu & search)
+BEGIN
+        DISPLAY Menu Categories
+        USER selects Category
+        FOR  EACH item IN Category
+                   DISPLAY Item Name, Description, and Price
+        ENDFOR
+        IF User clicks “Add to  Cart” THEN
+               STORE Item_ID in Cart_Session
+               UPDATE Cart Total
+        END IF
+END
+
+Requirement 3: Add to cart
+BEGIN
+       DISPLAY all items in Cart_Session
+       CALCULATE Total_Price = Sum of (Item_Price * Quantity)
+       DISPLAY Total_Price
+
+       IF User chooses “Update Quantity” THEN
+            INPUT New_Quantity
+            IF New_Quantity > 0 THEN
+                   SET Item_Quantity = New_Quantity
+            ELSE 
+                   REMOVE Item from Cart
+            END IF
+           RECALCULATE  Total_Price 
+ELSE IF  User chooses “Remove Item” THEN
+           DELETE Item from Cart_Session
+           RECALCULATE Total_Price
+ELSE IF User chooses “Checkout” THEN
+           PROCEED to Payment Requirement
+END IF
+END
+
+
 
