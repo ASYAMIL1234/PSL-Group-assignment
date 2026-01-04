@@ -1,1 +1,6 @@
+Requirement 2: Browse menu &  search
+Users can view available food items categorized by cuisine or price and select items to add to  their virtual shopping cart.
+Requirement 3: Shopping Cart Management (Add to cart)
+This function allows users to  review their selected food items, adjust quantities (increase or  decrease), or remove items  before proceeding to checkout . 
+The system must automatically recalculate the total price whenever a change is made.
 
