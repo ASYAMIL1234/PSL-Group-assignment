@@ -1,3 +1,23 @@
+Requirement 1 : User Registration
+Begin 
+        Display registration form
+	Input Name
+        Input Email
+        Input PhoneNumber
+        Input Password
+        If  (Name = null OR Email = null OR PhoneNumber = null OR Password = null) 
+                Display "Please fill in all required fields"
+        Else 
+                If  (Email already exists in database)
+        		Display "Email already registered"
+    	        Else 
+        		Store Name, Email, PhoneNumber, Password in database
+        		Display "Registration Successful"
+                Endif 
+        Endif 
+End 
+
+
 Requirement 2: (Browse menu & search)
 BEGIN
         DISPLAY Menu Categories
