@@ -4,3 +4,5 @@ Requirement 3: Shopping Cart Management (Add to cart)
 This function allows users to  review their selected food items, adjust quantities (increase or  decrease), or remove items  before proceeding to checkout . 
 The system must automatically recalculate the total price whenever a change is made.
 
+Requirement 4: Payment Process
+This function allows user to pay for the ordered product and directs the money transfer to the vendor
