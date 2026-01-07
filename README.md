@@ -10,6 +10,7 @@ requirement 4(payment processing)-solehuddin
 requirement 5(order tracking)-arif
 1 flowchart, 1 pseudocode
 
+<img width="629" height="678" alt="Flowchart 1" src="https://github.com/user-attachments/assets/0b2b2948-d630-4790-b35a-7e9c2807d00d" />
 
 <img width="484" height="587" alt="Flowchart 2" src="https://github.com/user-attachments/assets/34e8bceb-01c8-40c3-9be4-952579c0ddb1" />
 
